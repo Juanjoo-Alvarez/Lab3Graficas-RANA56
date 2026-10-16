@@ -1,0 +1,50 @@
+RANA-56 - Exploradora anfibia orbital
+Juan Jose Rivas Alvarez
+Carnet: 24856
+
+ENTREGA
+
+1. RANA_56_Juan_Jose_Rivas_Alvarez_24856.obj
+   Modelo listo para entregar. Todas sus caras son triangulos.
+
+2. RANA_56_Juan_Jose_Rivas_Alvarez_24856.mtl
+   Colores base del modelo. Conservar junto al OBJ en la misma carpeta.
+   Incluirlo en la entrega si la plataforma permite archivos adicionales.
+
+3. RANA_56_giro_Discord.gif
+   Vista animada de la nave para publicar en Discord.
+
+4. RANA_56_vista_previa.png
+   Imagen fija de la nave.
+
+5. RANA_56_editable.blend
+   Archivo editable para abrir en Blender: Archivo > Abrir.
+   Contiene solo un objeto: la nave, con el modificador Bevel editable.
+
+CONCEPTO
+
+Una nave exploradora inspirada en una rana: casco ancho verde, vientre
+claro, ojos elevados con sensores dorados, cabina central oscura y una
+toma de aire frontal que recuerda su boca. Las patas delanteras son
+estabilizadores y las patas traseras albergan motores turquesa.
+
+CONSTRUCCION
+
+Se partio del cubo inicial de Blender. Se uso Subdivide, Move, Scale,
+Extrude, Inset y un modificador Bevel de un segmento. No se agregaron
+otras mallas, no se unieron objetos y no se usaron booleanos.
+
+El resultado es una sola malla conectada y cerrada. Los materiales usan
+colores base uniformes, sin texturas. El OBJ aplica el Bevel y triangula
+las caras durante la exportacion: 1232 triangulos.
+
+En el .blend se conserva la topologia editable previa a la triangulacion.
+En Blender el frente apunta hacia -Y. El OBJ se exporto con Y hacia arriba
+y -Z como eje forward en las opciones del exportador.
+
+La imagen y el GIF fueron renderizados con la iluminacion de estudio de
+Blender. La camara se retiro antes de guardar el .blend.
+
+Para volver a exportar manualmente:
+Archivo > Exportar > Wavefront (.obj), seleccionar la nave y activar
+Apply Modifiers, Triangulated Mesh y Materials.

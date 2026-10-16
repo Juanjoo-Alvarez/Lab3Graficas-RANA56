@@ -1,0 +1,13 @@
+/build*/
+/.vs/
+*.user
+*.suo
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.blend1
+# Archivos locales de herramientas; no forman parte de la entrega.
+/.codex/
+/.agents/
+/AGENTS.md
